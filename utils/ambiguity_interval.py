@@ -95,9 +95,9 @@ if __name__ == '__main__':
     iqm_df_path = Path('D:/Althoff/Asymptotic/macrorun1/IQA_results/fr_scores_img321_img325.csv')
     iqm_list = ['psnr','ssim']
     dist_list = ['img81','img82','img83','img84','img85'] #sorted with respect to the amount of distortion
-    get_scanpath_meanscores(iqm_df_path,iqm_list)
+    mscores = get_scanpath_meanscores(iqm_df_path,iqm_list)
 
-    #Perceibleness sequence
+    #Perceivebleness sequence
     
     #Ambiguity interval
     #get_ai(increase = True)
