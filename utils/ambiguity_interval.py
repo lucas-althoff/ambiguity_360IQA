@@ -103,7 +103,7 @@ if __name__ == '__main__':
     #get_ai(increase = True)
 
     #Perceibleness map
-    #path = r'D:\Althoff\Asymptotic\test_ref3\gen_projections\img326\img101\scanpath_7\heat_maps'
+    #path = Path('D:/Althoff/Asymptotic/macrorun1/gen_projections/img326/img101/scanpath_7/heat_maps')
     #img = Image.open(path+r'\5_diff_map.png')#.convert("L") 
     
     #img1 = np.array(img, dtype="float32") * 1.0/255.0
