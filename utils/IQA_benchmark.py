@@ -166,9 +166,9 @@ if __name__ == '__main__':
         #compare(path)
 
     if args.plot:
-        #plot_distribution(path,iqa_metrics,box=True,dist=True)
+        plot_distribution(path,iqa_metrics,box=True,dist=True)
         plot_scatter(path,iqa_metrics,mos,scores)
-    #if args.vdp:
-    #    import subprocess
-    #    command = 'python3 fvvdp_run.py --ref D:\Sendjasni\OIQA_\img321.bmp --test D:\Althoff\Asymptotic\macrotest2\gen_projections\img1.jpg_0_*.jpg --display "htc_vive_pro" --heatmap threshold'
+    if args.vdp:
+        import subprocess
+        command = 'python3 fvvdp_run.py --ref D:\Sendjasni\OIQA_\img321.bmp --test D:\Althoff\Asymptotic\macrotest2\gen_projections\img1.jpg_0_*.jpg --display "htc_vive_pro" --heatmap threshold'
     
